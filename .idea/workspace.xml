@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d8d9fc87-b5bc-4848-bf07-9d063c99a425" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playground/mongodb-connect.js" beforeDir="false" afterPath="$PROJECT_DIR$/playground/mongodb-connect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -52,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/playground/mongodb-connect.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/server.js" />
       </list>
     </option>
   </component>
@@ -80,6 +91,11 @@
               <item name="rest-apis" type="462c0819:PsiDirectoryNode" />
               <item name="playground" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rest-apis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rest-apis" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -107,12 +123,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.server.js">
     <configuration name="mongodb-connect.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="playground/mongodb-connect.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/server/server.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.server.js" />
         <item itemvalue="Node.js.mongodb-connect.js" />
       </list>
     </recent_temporary>
@@ -130,30 +150,30 @@
       <workItem from="1548482496499" duration="9671000" />
       <workItem from="1548500154337" duration="39000" />
       <workItem from="1548500210115" duration="1238000" />
-      <workItem from="1548560485935" duration="3831000" />
+      <workItem from="1548560485935" duration="8191000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14779000" />
+    <option name="totallyTimeSpent" value="19139000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07534247" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10906217" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" weight="0.5980498" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.30444205" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2155361" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50052685" side_tool="true" weight="0.45720476" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -180,7 +200,14 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
         </state>
       </provider>
     </entry>
