@@ -41,9 +41,9 @@ client.connect(function(err) {
     const collection = db.collection('documents');
     // Find some documents
     
-    collection.find({}).toArray(function(err, docs) {
-        console.log("Found the following records");
-        console.log(docs)
-    });
-    client.close();
+    //collection.findOneAndUpdate({name:'Christmas Island'}, {$set :{name:'Avinash'}} , false).then(result => console.log(result))
+   // collection.findOneAndUpdate({name:'Avinash'} , {$set:{name: "Christmas Island"}} , false).then(result=>console.log(result))
+
+    collection.find({name:'Christmas Island'}).toArray().then(result=>console.log('Result is ',result))
+    //client.close();
 });
